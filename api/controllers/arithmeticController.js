@@ -18,7 +18,7 @@ exports.calculate = function(req, res) {
   };
 
   // Determine the operation
-
+  // cambio para pullrequest
   if (! req.query.operation) {
     throw new Error("Unspecified operation");
   }
